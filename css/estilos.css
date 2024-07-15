@@ -544,3 +544,25 @@ video{
     padding: 2rem;
     font-size: 2rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #fff; /* Color de fondo */
+    padding: 10px;
+}
+
+.navegacion > a:nth-of-type(6):hover + .submenu {
+    display: block;
+}
