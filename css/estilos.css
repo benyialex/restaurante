@@ -559,10 +559,19 @@ video{
 .submenu {
     display: none;
     position: absolute;
-    background-color: #fff; /* Color de fondo */
+    padding: 5px;
+    border: #565656 1px solid;
+    border-radius: 5px;
+    align-items: left;
+}
+.submenu link {
+    display: block;
     padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #565656;
 }
 
-.navegacion > a:nth-of-type(6):hover + .submenu {
+.navegacion > a:nth-of-type(6):focus + .submenu {
     display: block;
 }
